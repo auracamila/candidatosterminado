@@ -1,0 +1,131 @@
+body{
+    font-family: 'DM Sans', sans-serif; /* FUENTE */
+    font-family: 'Mulish', sans-serif; 
+    background-color: rgb(128, 128, 192);
+    margin: 0%;
+    /* padding: 150px; */
+
+}
+/* .logo{
+    width: 50px; ANCHO 
+    height: 10px;  ALTO 
+
+} */
+
+
+/* nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8 all;
+    padding: 20px 20px;
+    margin-right: 60px;
+
+} */
+
+/* nav ul li:hover{  CUANDO ME ENCUENTRE EN UN ELEMENTO SUCEDA ALGO 
+    background-color: white;
+} */
+
+
+/* nav ul{
+    display: inline-flex;
+    position: relative;
+    top: -50px;
+
+}
+
+nav ul li a {
+    text-decoration: none; DECORACION DE TEXTO NINGUNO 
+    color: black;  COLOR DE LETRA 
+} */
+
+.mision{
+    text-align: center;
+    background-color: #f50b0b74;
+    border: 3px solid #090707;
+    padding: 30px;
+    margin: 20px;
+}
+.vision{
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 3px solid #7b14b7;
+    padding: 30px;
+    margin: 20px;
+}
+.compromiso{
+    text-align: center;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 30px;
+    margin: 20px;
+}
+.trabajo-en-equipo{
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 3px solid #7b14b7;
+    padding: 30px;
+    margin: 20px;
+}
+.calidad{
+    text-align: center;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 30px;
+    margin: 20px;
+}
+.innovacion{
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 3px solid #7b14b7;
+    padding: 20px;
+    margin: 20px;
+}
+.software-a-la-medida{
+    text-align: center;
+    image-orientation: center ;
+    background-color: #f2f2f2;
+    border: 1px solid #080808;
+    padding: 0px;
+    margin: 0px;
+}
+.team-extesion{
+    text-align: center;
+    image-orientation: center ;
+    background-color: #f2f2f2;
+    border: 1px solid #7b14b7;
+    padding: 0px;
+    margin: 0px;
+}
+.fabrica-de-software{
+    text-align: center;
+    image-orientation: center ;
+    background-color: #f2f2f2;
+    border: 1px solid #080808;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    text-align: center; 
+}
+
+h3{
+    text-align: center; 
+    background-color: #f2f2f28e;   
+
+}
+
+p{
+   text-align: center; 
+   color: #080808;
+}
+
+footer {
+    height: 400px; 
+    background-color: #f2f2f274; 
+    margin: 0px;  
+  }
+  
+
+

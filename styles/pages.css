@@ -1,0 +1,230 @@
+body {
+    background-image: url("../assets/imagenes/fondo.avif");
+}
+
+.icon-space {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tarjetas-container {
+    margin-bottom: 40px;
+}
+
+.tarjeta-valores {
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.35);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.tarjeta_invertida {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tarjeta-valores .img-art {
+    padding: 10px;
+    height: 300px;
+    width: 50%;
+}
+
+
+.valores_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.tarjeta-valores figure {
+    margin: 0;
+}
+
+.tarjeta-valores .cont-art {
+    flex: 1;
+    padding: 20px;
+}
+
+.cont-art h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cont-art p {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.img-art img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.logo-container {
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+.logo-image {
+    object-fit: contain;
+}
+
+.navbar-collapse {
+    justify-content: right;
+    margin-right: 100px;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.carousel-item {
+    height: 85vh;
+}
+
+.text-carrusel {
+    padding-bottom: 30px;
+}
+
+.text-carrusel,
+.carrusel-title {
+    color: white;
+    font-size: 60px;
+    text-shadow: black 1px 0 10px;
+}
+
+.text-carrusel,
+.carrusel-summary {
+    color: white;
+    font-size: 25px;
+    text-shadow: black 1px 0 10px;
+}
+
+.text-carrusel,
+.big-text {
+    font-size: 60px;
+}
+
+footer {
+    height: auto;
+    margin: 30px;
+    min-height: 250px;
+}
+
+.tarjeta-servicios {
+    height: 100%;
+}
+
+.tarjeta-servicios p {
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.card-img-top {
+    padding: 10px;
+    height: 300px;
+    width: 100%;
+}
+
+.check-separator {
+    display: inline-block;
+    width: 40px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.title-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title-container p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image-fix {
+    object-fit: contain;
+}
+
+.image-fix img {
+    width: 100%;
+}
+
+.form-contacto {
+    padding: 50px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.35);
+    transition: 0.3s;
+    background-color: white;
+}
+
+.form-contacto .col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
+    margin-top: 10px;
+}
+
+
+@media (max-width: 480px) {
+    .tarjeta-valores {
+        flex-direction: column;
+    }
+
+    .tarjeta-valores .img-art {
+        width: 100%;
+    }
+
+    .tarjeta_invertida {
+        flex-direction: column;
+    }
+
+    .row-responsive {
+        display: inline-block;
+    }
+
+    .carousel-item {
+        height: auto;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .row {
+        display: block;
+    }
+}

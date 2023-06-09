@@ -1,0 +1,96 @@
+body{
+    font-family: 'DM Sans', sans-serif; /* FUENTE */
+    font-family: 'Mulish', sans-serif; 
+    margin: 0%;
+    /*padding-top: 150px; */
+
+}
+
+.mision{
+    text-align: center;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 30px;
+    margin: 20px;
+}
+.vision{
+    text-align: center;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 30px;
+    margin: 20px;
+}
+.compromiso{
+    text-align: center;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 30px;
+    margin: 20px;
+}
+.trabajo-en-equipo{
+    text-align: center;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 30px;
+    margin: 20px;
+}
+.calidad{
+    text-align: center;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 30px;
+    margin: 20px;
+}
+.innovacion{
+    text-align: center;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 20px;
+    margin: 20px;
+}
+.software-a-la-medida{
+    text-align: center;
+    image-orientation: center ;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 0px;
+    margin: 0px;
+}
+.team-extesion{
+    text-align: center;
+    image-orientation: center ;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 0px;
+    margin: 0px;
+}
+.fabrica-de-software{
+    text-align: center;
+    image-orientation: center ;
+    background-color: #f2f2f274;
+    border: 3px solid #090707;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    text-align: center; 
+}
+
+h3{
+    text-align: center; 
+    background-color: #f2f2f28e;   
+
+}
+
+p{
+   text-align: center; 
+   color: #080808;
+}
+
+footer {
+    height: 400px; 
+    background-color: #f2f2f274; 
+    margin: 0px;  
+  }
+  
